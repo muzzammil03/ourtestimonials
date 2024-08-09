@@ -1,8 +1,10 @@
+// Importing necessary libraries and styles
 import React from 'react'
 import Card from './Card'
 import { FiChevronLeft,FiChevronRight } from 'react-icons/fi';
 import { useState } from 'react';
 
+// Creating a functional component for Testimonials
 const Testimonial = (props) => {
   let reviews=props.reviews;
   const [index,setIndex]=useState(0);
